@@ -4,10 +4,10 @@
   <li class="collection-header">
     <h4>{{name}}</h4>
   </li>
-  <li class="collection-item bold">STUDENT-ID: {{student_id}}</li>
-  <li class="collection-item">Father-Name: {{father_name}}</li>
-  <li class="collection-item">Fee-Paid: {{fee_paid}}</li>
-  <li class="collection-item">Fee-Due: {{due_fee}}</li>
+  <li class="collection-item"><strong>Student_ID# :  </strong> {{student_id}}  </li>
+  <li class="collection-item"><strong>Father_Name :  </strong> {{father_name}}</li>
+  <li class="collection-item"><strong>Fee_Paid  :  </strong> {{fee_paid}} $</li>
+  <li class="collection-item"><strong>Fee_Due :  </strong> {{due_fee}} $</li>
 </ul>
 <router-link to="/" class="btn blue">BACK</router-link>
 <button @click="deleteStudent"  class="btn red">DELETE</button>

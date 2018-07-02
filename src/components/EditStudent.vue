@@ -3,43 +3,37 @@
   <h3>Edit Student</h3>
    <div class="row">
     <form @submit.prevent="updateStudent" class="col s12">
-      <div class="row">
+<div class="row">
         <div class="input-field col s12">
           <input disabled type ="text" v-model="student_id" required>
-       
-        </div>
+       </div>
       </div>
-      <div class="row">
+<div class="row">
         <div class="input-field col s12">
           <input type ="text" v-model="name" required>
-     
-        </div>
-        </div>
-        <div class="row">
+       </div>
+     </div>
+  <div class="row">
         <div class="input-field col s12">
           <input type ="text" v-model="father_name" required>
-  
-        </div>
+          </div>
         </div>
         
-        <div class="row">
+<div class="row">
         <div class="input-field col s12">
           <input type ="text" v-model="fee_paid" required>
         
         </div>
         </div>
-        <div class="row">
+  <div class="row">
         <div class="input-field col s12">
           <input type ="text" v-model="due_fee" required>
-        
-        </div>
+       </div>
         </div>
          <button type="submit" class="btn  green"> Update</button>
          <router-link to="/" class="btn orange">CANCEL</router-link>
     </form>
- 
-  
-  </div>
+ </div>
 </div>
 </template>
 <script>

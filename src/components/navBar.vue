@@ -1,9 +1,9 @@
 <template>
 <nav>
-  <div class="nav-wrapper green">
+  <div class="nav-wrapper cyan">
    <div class="container"> 
      <router-link to="/" class="brand-logo">
-     Student Management
+     School-Fiancial-Info
      </router-link>
     
    </div>

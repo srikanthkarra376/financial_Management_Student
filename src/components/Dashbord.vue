@@ -5,7 +5,7 @@
       <h4>Students</h4>
     </li>
   <li  v-for="student in students" v-bind:key="student.id" class="collection-item">
-    {{student.student_id}}  :  {{student.name}}
+    {{student.student_id}}   :   {{student.name}} ,  {{student.father_name}} 
     <router-link v-bind:to="{name:'view-student',params:{student_id:student.student_id}}" class="secondary-content">
     <i class="fa fa-eye"/>
     </router-link>
@@ -51,3 +51,9 @@ name :'dashbord',
   }
 }
 </script>
+<style scoped>
+#dashbord {
+background:black;
+}
+
+</style>
