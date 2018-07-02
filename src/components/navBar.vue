@@ -3,12 +3,9 @@
   <div class="nav-wrapper cyan">
    <div class="container"> 
      <router-link to="/" class="brand-logo">
-     School-Fiancial-Info
+    Student fiancial info
      </router-link>
-    
-   </div>
+  </div>
  </div>
-
-</nav>
- 
-</template>
+ </nav>
+ </template>

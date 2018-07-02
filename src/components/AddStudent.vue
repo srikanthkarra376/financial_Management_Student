@@ -54,8 +54,7 @@ export default {
      Class:null,
      fee_paid:null,
      due_fee:null
-
-    }
+     }
     
   },
   methods:{
@@ -70,6 +69,6 @@ export default {
       .catch(error=>console.log(err))
     }
       
-    }
+  }
 }
 </script>

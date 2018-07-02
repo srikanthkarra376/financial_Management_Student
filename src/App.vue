@@ -4,11 +4,8 @@
     <div class="container">
        <router-view/>
     </div>
-    
-    
   </div>
 </template>
-
 <script>
 import NavBar from './Components/navBar'
 export default {
@@ -18,7 +15,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>
