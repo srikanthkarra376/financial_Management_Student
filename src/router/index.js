@@ -31,7 +31,7 @@ export default new Router({
   },
   {
 
-    path:'/view/:student_id',
+    path:'/:student_id',
     name:'view-student',
     component:ViewStudent
   }
