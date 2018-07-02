@@ -35,7 +35,7 @@
         </div>
         </div>
          <button type="submit" class="btn  green"> SUBMIT</button>
-         <router-link to="/" class="btn orange">CANCEL</router-link>
+         <router-link title="Add Student" to="/" class="btn orange">CANCEL</router-link>
     </form>
  
   
